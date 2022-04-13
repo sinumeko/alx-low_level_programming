@@ -7,14 +7,14 @@ include "main.h"
 
 void print_alphabet_x10(void)
 {
-	int alpha;
-	int alpha2;
+	int i;
+	int c;
 
-	for (alpha = 0; alpha < 10; alpha++)
+	for (i = 0; i < 10; i++)
 	{
-		for (alpha2 = 'a'; alpha2 <= 'z'; alpha2++)
+		for (c = 'a'; c <= 'z'; c++)
 		{
-			_putchar(alpha2);
+			_putchar(c);
 		}
 		_putchar('\n');
 	}
