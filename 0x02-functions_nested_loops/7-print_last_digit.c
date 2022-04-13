@@ -3,16 +3,15 @@
 /**
  * print_last_digit - prints the last digit of a number
  *@n: number being tested
- * Return: Always 0.
+ * Return: returns output
  */
 
-int print_last_digit(int)
+int print_last_digit(int n) 
 {
-	int n;
-	n = n % 10;
+	int ln = n % 10;
 
 	if (n < 0)
-		n = -n;
-		_putchar(n + '0');
-		return (n);
+		ln =ln * -n;
+		_putchar(ln + '0');
+		return (ln);
 }
