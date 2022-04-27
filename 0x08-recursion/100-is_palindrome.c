@@ -1,4 +1,5 @@
 include "main.h"
+#include <stdio.h>
 /**
  * is_palindrome - find a palindrome string
  * @s: string for check
